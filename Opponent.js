@@ -13,7 +13,7 @@ class Opponent extends Character {
      * @param myImage {String} Ruta de la imagen del personaje
      * @param myImageDead {String} Ruta de la imagen del personaje cuando muere
      */
-    constructor (game, width, height, x, y, speed, myImage, myImageDead) {
+    constructor (game, width, height, x, y, speed, myImage, myImageDead) {              // ALUMNA
         width = width || (OPPONENT_WIDTH * game.width / 100);
         height = height || (OPPONENT_HEIGHT * game.width / 100);
         x = x || getRandomNumber(game.width - width / 2);
